@@ -1,0 +1,188 @@
+@CHARSET "ISO-8859-1";
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(miniimage5.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	filter: blur(10px);
+}
+.contact-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 930px;
+	height: 545px;
+	padding: 80px 40px;
+	background: rgba(0, 0, 0, 0.5);
+}
+.avatar {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	margin-top:10px;
+	border-radius: 50%;
+	overflow: hidden;
+	top: calc(-80px/2);
+	left: 390px;
+}
+.editbtn {
+    top: 605px;
+    background-color: #c98c1a;
+    right: 0px;
+    margin-left:-150px;
+    margin-top:30px;
+    width: 15px;
+    height: 46px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.love {
+	margin-top:30px;
+}
+.btn1 {
+	position: fixed;
+    top: 185px;
+    background-color: #c98c1a;
+    right: 97px;
+    width: 135px;
+    height: 46px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.editbtn2 {
+	position: fixed;
+    top: 260px;
+    background-color: #c98c1a;
+    right: 97px;
+    width: 135px;
+    height: 46px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+.editbtn3 {
+	position: fixed;
+    top: 334px;
+    background-color: #c98c1a;
+    right: 97px;
+    width: 135px;
+    height: 46px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.editbtn4 {
+	position: fixed;
+    top: 408px;
+    background-color: #c98c1a;
+    right: 97px;
+    width: 135px;
+    height: 46px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.editbtn5 {
+	position: fixed;
+    top: 479px;
+    background-color: #c98c1a;
+    right: 97px;
+    width: 135px;
+    height: 46px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.editbtn6 {
+	position: fixed;
+    top: 552px;
+    background-color: #c98c1a;
+    right: 97px;
+    width: 135px;
+    height: 46px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.contact-form h2 {
+	margin: -10px;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.contact-form p {
+	margin: 0;
+	margin-top:5px;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.contact-form input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.contact-form input[type=text], .contact-form input[type=password] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: #fff;
+	font-size: 16px;
+}
+.contact-form input[type=submit]{
+	height: 36px;
+	color: #fff;
+	font-size: 15px;
+	background: #c98c1a;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 5%;
+}
+.contact-form a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
